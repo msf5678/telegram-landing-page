@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Raja Cricket Analyst | Cricket Analysis</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080808;
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        /* PROFILE */
+        .profile {
+            width: 145px;
+            height: 145px;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            border: 4px solid #ccff00;
+            padding: 4px;
+            box-shadow: 0 0 25px rgba(204, 255, 0, 0.45);
+        }
+
+        .profile img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* CHANNEL NAME */
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #ccff00;
+            margin-bottom: 12px;
+        }
+
+        .members {
+            color: #cccccc;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        /* BADGES */
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            padding: 10px 16px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #333;
+        }
+
+        .badge-yellow {
+            color: #fecb00;
+            background: rgba(254, 203, 0, 0.1);
+        }
+
+        .badge-red {
+            color: #ff4d4d;
+            background: rgba(255, 0, 0, 0.1);
+        }
+
+        /* STATS */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .stat {
+            background: #111111;
+            border: 1px solid #292929;
+            border-radius: 15px;
+            padding: 18px 5px;
+        }
+
+        .stat h2 {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+
+        .stat p {
+            color: #888888;
+            font-size: 10px;
+        }
+
+        .yellow {
+            color: #ccff00;
+        }
+
+        .red {
+            color: #ff5555;
+        }
+
+        /* TELEGRAM BUTTON */
+        .telegram-button {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            border-radius: 15px;
+            background: linear-gradient(90deg, #25a244, #e21d2f);
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 35px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.03);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* BENEFITS */
+        .benefits {
+            background: #101500;
+            border: 1px solid #ccff00;
+            border-radius: 15px;
+            padding: 22px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-bottom: 35px;
+        }
+
+        .benefit {
+            color: #ccff00;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        /* DISCLAIMER */
+        .disclaimer {
+            color: #777777;
+            font-size: 11px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            color: #555555;
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- PROFILE PICTURE -->
+        <div class="profile">
+            <img
+                src="raja-logo.jpeg"
+                alt="Raja Cricket Analyst Logo">
+        </div>
+
+        <!-- CHANNEL NAME -->
+        <h1>RAJA CRICKET ANALYST 🏏</h1>
+
+        <!-- MEMBERS -->
+        <div class="members">
+            👤 65,834 Active Members
+        </div>
+
+        <!-- BADGES -->
+        <div class="badges">
+
+            <div class="badge badge-yellow">
+                🏆 Expert Analysis
+            </div>
+
+            <div class="badge badge-red">
+                ⚡ Live Updates
+            </div>
+
+        </div>
+
+        <!-- STATS -->
+        <div class="stats">
+
+            <div class="stat">
+                <h2 class="yellow">96%</h2>
+                <p>ACCURACY</p>
+            </div>
+
+            <div class="stat">
+                <h2 class="red">65K+</h2>
+                <p>MEMBERS</p>
+            </div>
+
+            <div class="stat">
+                <h2 class="yellow">4.9★</h2>
+                <p>COMMUNITY</p>
+            </div>
+
+        </div>
+
+        <!-- TELEGRAM -->
+        <a
+            href="https://t.me/+ICAASoOTiFljZmQ1"
+            class="telegram-button">
+            🚀 Join Telegram Channel
+        </a>
+
+        <!-- BENEFITS -->
+        <div class="benefits">
+
+            <div class="benefit">
+                ✅ Match Analysis
+            </div>
+
+            <div class="benefit">
+                ⚡ Live Updates
+            </div>
+
+            <div class="benefit">
+                📊 Statistical Insights
+            </div>
+
+            <div class="benefit">
+                ⭐ Expert Opinions
+            </div>
+
+        </div>
+
+        <!-- DISCLAIMER -->
+        <div class="disclaimer">
+
+            <p>
+                Sports analysis and predictions are provided for
+                informational and entertainment purposes only.
+            </p>
+
+            <p>
+                No betting or wagering services are provided through
+                this website.
+            </p>
+
+        </div>
+
+        <footer>
+            © 2026 Raja Cricket Analyst. All rights reserved.
+        </footer>
+
+    </div>
+
+</body>
+</html>
